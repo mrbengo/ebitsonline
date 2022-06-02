@@ -1,0 +1,11 @@
+[10-Jul-2014 15:54:04 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/includes/wbm_common.php on line 2
+[10-Jul-2014 15:54:04 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/includes/wbm_config.php on line 2
+[10-Jul-2014 15:54:04 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/functions/passwordreminder_fns.php on line 2
+[10-Jul-2014 15:54:44 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/includes/wbm_common.php on line 2
+[10-Jul-2014 15:54:44 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/includes/wbm_config.php on line 2
+[10-Jul-2014 15:54:44 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/functions/passwordreminder_fns.php on line 2
+[10-Jul-2014 15:57:56 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/includes/wbm_common.php on line 2
+[10-Jul-2014 15:57:56 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/includes/wbm_config.php on line 2
+[10-Jul-2014 15:57:56 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/functions/passwordreminder_fns.php on line 2
+[10-Jul-2014 16:13:08 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/functions/passwordreminder_fns.php on line 2
+[10-Jul-2014 16:14:45 America/Chicago] PHP Deprecated:  Function eregi() is deprecated in /home/ebitsclo/public_html/erp/sidebars/dashboard-sidebar.php on line 2
