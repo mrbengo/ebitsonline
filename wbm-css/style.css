@@ -1,0 +1,240 @@
+body
+{
+	margin : 0px 0px 0px 0px;
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 120%;
+	color: black;
+}
+/* for the topbar backgroun */
+.bluebar
+{
+	background-color: #69C;
+	background-image : url(assets/square_bg.gif);
+	background-repeat : repeat;
+}
+
+.titlerow
+{
+	background-image: url(assets/stripe_bg.gif);
+	background-repeat: repeat;
+}
+
+/* title show in the second row on the top */
+.topheading{
+	background-color : inherit;
+	color : #C00;
+	font-weight : bold;
+	font-size : 10px;
+}
+
+/*main content table stuff */
+.maintable {
+	background-color: white;
+}
+
+.divider{
+	background-color: #D1E2F2;
+	
+}
+
+.helpbg {
+	background-image : url(assets/helpbg.gif);
+	margin-left: 8px;
+}
+
+/* navigation classes */
+.nav  {	font-weight: normal;	color: #036;}
+.navcur  {	font-weight: bold;	color: #036;}
+.navall{	line-height : 175%;}
+
+
+form {margin-bottom : 0; }
+/* DIVS & POSITIONING */
+#loginimg {	position: relative;	top: 10px;	left: 58px;}
+#login {	position: relative;	top: 10px;	left: 58px;	width: 350px;	border : 1px solid #D1E2F2;	padding : 5px 5px 5px 5px; width: 350px;;}
+#news { 	position: relative; top: 5px; }
+#uploadcaption{	width: 400px;}
+#uploadcaption2{width: 290px;}
+
+/*CLASSES*/
+
+
+.content {border: 1px solid #D1E2F2 }
+.current{ color: #EE3224;}
+.header {font-size: larger; font-weight: bold; color:  #2A5DAB}
+.title {  font-size: larger; font-weight: bold; color:  #2A5DAB}
+.text {  font-size: normal;}
+.comments {  font-size: normal; }
+.showcomments { font-size: normal; font-style: italic;  text-decoration: none}
+.commentheader {font-size: 110%;}
+.newstag{	font-family: Verdana,  Arial, Helvetica, sans-serif;font-size: smaller;	}
+.newsbody{ }
+.txtinput{margin: 3px 3px 3px 3px; background-color:#D1E2F2; color:#036;}
+.button {background-color:#036; color:white; font-weight: bold; font-size: 10px; padding:2px;}
+.radio {color:#036; background-color: inherit;}
+
+/* Styles for todolis */
+.stage {	background-color: #EDF4FB;}
+.todoheader {	background-color: #D1E2F2;	font-weight: bold; font-size: larger;}
+.date{background-color: #D1E2F2;}
+.dworks{	color: #2A5DAB;}
+.client{	color: #EE3224;}
+
+
+/* REDEFINED TAGS */
+a{	text-decoration: none;	color:  #003366;}
+a:hover{	text-decoration: underline;	color:#C00;}
+
+monthlink{
+	color: #2A5DAB;
+}
+
+
+/* NEW TAGS FOR REDESIGN */
+
+/* for heading news post or comment form*/
+
+/*ttop title space*/
+.toptitle{
+	font-size: larger;
+	color: #C00;
+	font-weight: bold;
+}
+
+input,select {font-size: xx-small;}
+
+/* to pad the cells 2px so they don't look sooo bad */
+.pad{
+	padding : 2px 2px 4px 4px;
+}
+
+
+
+.vertpad{
+	padding-top : 4px;
+	padding-bottom : 4px;
+}
+
+.hpad8{
+	padding-left : 8px;
+	padding-right : 8px;
+}
+
+.vpad8{
+	padding-top : 8px;
+	padding-bottom : 8px;
+}
+
+.post_row_div{
+	background-color: #036;
+}
+
+
+.post_row_0 {
+	background-color: #D1E2F2;
+	vertical-align : top;
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/* for second comment */
+.post_row_1 {
+	background-color: #EDF4FB;
+	vertical-align : top;
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+.post_row_2{
+	background-color: #E6EDF4;
+	vertical-align : top;
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+.white_row{
+	background-color: white;
+	vertical-align : top;
+}
+
+
+
+/* for making things vertically align center in a table */
+.vmiddle{
+	vertical-align: middle;
+}
+
+/* for making things vertically align top in a table */
+.vtop{
+	vertical-align: top;
+	margin-right:0;
+}
+
+/* for headings of news items */
+.newsheading{
+	background-color : inherit;
+	color : #C00;
+	font-weight : bold;
+	font-size : 12px;
+}
+/*actual news content*/
+.newstext{
+	color: black;
+	line-height: 140%
+}
+
+/* for add view comment count line */
+.addview{
+	background-color : inherit;
+	color : #036;
+	font-weight : bold;
+	font-size : 10px;
+}
+/* for add your own comments */
+.addheader{
+	color : #036;
+	font-weight : bold;
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/* for secondary news text, info, etc */
+.newssecondary{
+	font-size : 10px;
+}
+
+/*for displaying messages after processing forms */
+.notice{
+	background-color: inherit;
+	color : #C00;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+
+/*### SCHEDULE ITEMS ###*/
+.hour{
+	font-weight: bold;
+}
+
+.bigdate{
+	font-weight: bold;
+	font-size: 20px;
+	text-align : center;
+}
+.weekday{
+	font-weight: bold;
+	font-size: 15px;
+}
+.dayday{
+	font-weight: bold;
+	font-size: 15px;
+}
+..allday{
+	font-style: italic;
+}
+
+/*for printing */
+.displayhide{
+	display:none;
+}

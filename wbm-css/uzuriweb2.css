@@ -1,0 +1,451 @@
+/*======================================*
+** uzuriweb.css
+/*======================================
+** Created: July 24, 2008
+** Author: Ebits Online
+** Website: www.ebitsonline.com
+**======================================*/
+body {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	font: 12px/18px "Verdana", Geneva, Arial, Helvetica, sans-serif ; 
+	color: #333;
+    background:#EAEFF2;
+}
+.titletx{
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+	padding : 3px 0px 3px 5px;
+}
+.logotext{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	padding : 3px 0px 3px 5px;
+}
+.errtxt{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	background: #ffffff;
+}
+.formstext{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	padding : 3px 0px 3px 5px;
+}
+.bidtxt{
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.sitetxt{
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.xtraformtxt{
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.sitetitle {
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 5px;
+	background: #00576A;
+}
+h2 {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.addeditx{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.sideheadings {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background: #D6E5F3;
+}
+.inputtxt {
+	font : 11px/1.5em Verdana;
+	background-color : #ffffff;
+}
+.lists{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	padding: 2px 0px 2px 5px ;
+}
+.summaryheader {
+	font-family: "Helvetica", Arial,sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color: #0C5D9E;
+	padding-left: 10px;
+	padding-bottom:0px;
+}
+h3 {
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color: #7D3F00;
+}
+.summarytxt {
+	font-family: "Helvetica", Arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color: #0C5D9E;
+}
+a.summarytxt {
+	font-family:"Verdana", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #4780AD;
+	text-decoration:none;
+	font-weight:600;
+}
+a.summarytxt:hover {
+	font-family:"Verdana", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #000000;
+	text-decoration:none;
+}
+.formscss{
+font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:bold;
+text-align: right;
+height: 19px; 
+padding-left:5px; 
+line-height: 19px;	
+margin-bottom: 2px;	
+border: #E8E7D5 1px solid;
+}
+/*------------------------------------------------------------*
+**  Display Formatting
+**------------------------------------------------------------*/
+.breadcrumbs {
+	background: #f3f6f7;
+	font-size : 11px;
+	margin: 0;
+	padding: 7px 10px 10px 10px ;
+}
+
+.breadcrumbs , .breadcrumbs  a {
+	color: #666;
+	text-decoration: none;
+}
+
+.breadcrumbs  a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+/*------------------------------------------------------------*
+**  Display Formatting
+**------------------------------------------------------------*/
+.displayheader {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-variant: small-caps;
+	color: #666666;
+	padding : 3px 0px 3px 0px;
+}
+.frmHeader {
+	color : #ffffff;
+	font : 11px/1.5em Verdana;
+	font-weight : bold;
+	background-color : #006F93;
+	padding : 2px 5px 2px 5px;
+}
+.frmTabletxt {
+	font : 11px/1.5em Verdana;
+	background-color : #ffffff;
+	padding : 2px 5px 2px 5px;
+}
+.frmTabletxt2 {
+	border:1px solid #efefef;
+	font : 11px/1.5em Verdana;
+	background-color : #ffffff;
+	padding : 2px 5px 2px 5px;
+}
+.frmTabletxt3 {
+	border:1px solid #efefef;
+	font : 11px/1.5em Verdana;
+	background-color : #ffffff;
+	padding : 2px 5px 5px 5px;
+}
+.frmTabletxt4 {
+	border:1px solid #efefef;
+	font : 11px/1.5em Verdana;
+	background-color : #ffffff;
+	padding : 2px 5px 100px 5px;
+}
+.InvoiceFootH {
+	color : #000000;
+	font:Verdana;
+	font-size:14px;
+	font-weight : bold;
+	padding : 2px 5px 2px 5px;
+}
+.InvoiceFootI {
+	color : #000000;
+	font: Verdana;
+	font-size: 12px;
+	font-style:italic;
+	font-weight : bold;
+	padding : 2px 5px 2px 5px;
+}
+.frmLegendtxt {
+	font : 11px/1.5em Verdana;
+	background-color : #F3F5F8;
+	padding : 2px 5px 2px 5px;
+}
+.scroll {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000000;
+	font-weight: bold;
+	padding : 3px 3px 3px 3px;
+	text-decoration : none;
+}
+a.scroll {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #0099ff;
+	padding : 0 3px 0 3px;
+	text-decoration : none;
+}
+a.scroll:hover {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000000;
+	padding : 0 3px 0 3px;
+	text-decoration : underline;
+}
+a.scroll:active {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000000;
+	padding : 0 3px 0 3px;
+	text-decoration : underline;
+}
+/*------------------------------------------------------------*
+**  Logout Formatting
+**------------------------------------------------------------*/
+a.loglinks {
+	font-family: Tahoma;
+	font-size: 14px;
+	color : #004e82;
+	font-weight : bold;
+	text-decoration:none;
+}
+a.loglinks:hover {
+	font-family: Tahoma;
+	font-size: 14px;
+	color : #004e82;
+	font-weight : bold;
+	text-decoration:underline;
+}
+/*------------------------------------------------------------*
+**  Upload links Formatting
+**------------------------------------------------------------*/
+a.uploadlinks {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	background: #ffffff;
+	text-decoration:none;
+}
+a.uploadlinks:hover {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	background: #ffffff;
+	text-decoration:underline;
+}
+
+/*------------------------------------------------------------*
+**  Sidelinks Formatting
+**------------------------------------------------------------*/
+.sidelinks {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	padding-left: 30px;
+	background-color:#CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	display:block;
+}
+a.sidelinks {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px 0px 5px 20px;
+	background-color: #eeeeee;
+	border-bottom: 1px solid #CCCCCC;
+	display:block;
+	text-decoration:none;
+}
+a.sidelinks:hover {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px 0px 5px 20px;
+	background: #ffffff;
+	text-decoration:none;
+}
+/*------------------------------------------------------------*
+**  Logout Formatting
+**------------------------------------------------------------*/
+.logout {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 0px 5px 0px 10px;
+}
+a.logout {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 0px 5px 0px 10px;
+	text-decoration:none;
+}
+a.logout:hover {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #eeeeee;
+	font-weight: bold;
+	padding: 0px 5px 0px 10px;
+	text-decoration:underline;
+}
+/*------------------------------------------------------------*
+**  Forms Formatting
+**------------------------------------------------------------*/
+.inputboxs {
+	border : 5px solid #eeeeee;
+	background-color:#efefef;
+}
+.inputtableboxs {
+	border: 5px solid #CCE5FF;
+	background-color:#F5F3F3;
+}
+.inputfield1 {
+	font : 11px/1.5em Verdana;
+	background-color : #efefef;
+}
+.linkseperator {
+	font : 11px/1.5em Verdana;
+}
+.inputheader {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	font-weight:bold;
+	color : #000000;
+	padding : 3px 0px 3px 0px;
+}
+/*------------------------------------------------------------*
+**  Form tables
+**------------------------------------------------------------*/
+.dataTable {
+	font:		Icon;
+	border:		1px Solid #006F93;
+	background:	#fff;
+	color:		#006F93;
+	cursor: default;
+}
+
+.dataTable thead {
+	color:		#ffffff;
+	background:	#006F93; /* ButtonFace */
+}
+
+.dataTable thead td 
+{
+	font-weight: bold;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #f3f6f7;
+    border-bottom: 1px solid #f3f6f7;
+	padding:2px 5px 2px 5px;
+    cursor:	default;
+}
+/*------------------------------------------------------------*
+**  End of Css
+**------------------------------------------------------------*/
+.logintable{
+    border-top: 1px solid #006F93;
+    border-left: 1px solid #006F93;
+    border-bottom: 5px solid #006F93;
+    border-right: 1px solid #006F93;	
+}
+/*------------------------------------------------------------*
+**  End of Css
+**------------------------------------------------------------*/
+ #tabs10 {
+        font: bold 11px/1.5em Verdana;
+      float:right;
+      width:100%;
+      line-height:normal;
+      }
+    #tabs10 ul {
+          margin:0;
+          padding:0px 0px 0 0px;
+          list-style:none;
+      }
+    #tabs10 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs10 a {
+      float:left;
+      background:url("../images/tableft10.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 3px;
+      text-decoration:none;
+      }
+    #tabs10 a span {
+      float:left;
+      display:block;
+      background:url("../images/tabright10.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs10 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs9 a:hover span {
+      color:#FFF;
+      }
+    #tabs10 a:hover {
+      background-position:0% -42px;
+      }
+    #tabs10 a:hover span {
+      background-position:100% -42px;
+      }
+
+      #tabs10 #current a {
+              background-position:0% -42px;
+      }
+      #tabs10 #current a span {
+              background-position:100% -42px;
+      }
